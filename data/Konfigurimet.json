@@ -1,0 +1,77 @@
+[
+  {
+    "celesi": "biznesi_adresa",
+    "vlera": "Peje",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "biznesi_emri",
+    "vlera": "CaffeBar",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "display_monitor",
+    "vlera": "0",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "fiscal_inbox_dir",
+    "vlera": "C:\\Temp\\inbox\\in",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "fiscal_payment_type",
+    "vlera": "1",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "kds_sound",
+    "vlera": "1",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "printer_bar",
+    "vlera": "Shank",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "printer_fatura",
+    "vlera": "POS-80C",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "printer_kuzhin",
+    "vlera": "POS-80C",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "radio_autoplay",
+    "vlera": "1",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "radio_channel",
+    "vlera": "smooth",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "radio_enabled",
+    "vlera": "1",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "radio_volume",
+    "vlera": "50",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  },
+  {
+    "celesi": "seed_demo_menu",
+    "vlera": "1",
+    "perditesuar_me": "2026-06-14T23:24:00"
+  },
+  {
+    "celesi": "tvsh_perqind",
+    "vlera": "18",
+    "perditesuar_me": "2026-06-23T01:05:13"
+  }
+]

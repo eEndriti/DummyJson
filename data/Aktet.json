@@ -1,0 +1,101 @@
+[
+  {
+    "akt_id": 1,
+    "perdorues_id": 13,
+    "kasa_hapese": 0,
+    "kasa_mbyllje": 450,
+    "hapur_me": "2026-05-31T17:14:22",
+    "mbyllur_me": "2026-06-07T01:13:54",
+    "shenime": null
+  },
+  {
+    "akt_id": 2,
+    "perdorues_id": 15,
+    "kasa_hapese": 0,
+    "kasa_mbyllje": 250,
+    "hapur_me": "2026-05-31T19:22:04",
+    "mbyllur_me": "2026-06-07T01:13:51",
+    "shenime": null
+  },
+  {
+    "akt_id": 1002,
+    "perdorues_id": 13,
+    "kasa_hapese": 0,
+    "kasa_mbyllje": 45,
+    "hapur_me": "2026-06-07T01:14:03",
+    "mbyllur_me": "2026-06-07T20:44:42",
+    "shenime": null
+  },
+  {
+    "akt_id": 1003,
+    "perdorues_id": 15,
+    "kasa_hapese": 0,
+    "kasa_mbyllje": 44,
+    "hapur_me": "2026-06-07T01:20:35",
+    "mbyllur_me": "2026-06-07T20:51:59",
+    "shenime": null
+  },
+  {
+    "akt_id": 1004,
+    "perdorues_id": 13,
+    "kasa_hapese": 20,
+    "kasa_mbyllje": 45,
+    "hapur_me": "2026-06-07T22:34:23",
+    "mbyllur_me": "2026-06-11T00:24:12",
+    "shenime": null
+  },
+  {
+    "akt_id": 1005,
+    "perdorues_id": 13,
+    "kasa_hapese": 20,
+    "kasa_mbyllje": 20,
+    "hapur_me": "2026-06-11T22:08:06",
+    "mbyllur_me": "2026-06-14T00:43:04",
+    "shenime": null
+  },
+  {
+    "akt_id": 1006,
+    "perdorues_id": 15,
+    "kasa_hapese": 20,
+    "kasa_mbyllje": 20,
+    "hapur_me": "2026-06-11T22:57:53",
+    "mbyllur_me": "2026-06-14T00:43:11",
+    "shenime": null
+  },
+  {
+    "akt_id": 1007,
+    "perdorues_id": 13,
+    "kasa_hapese": 20,
+    "kasa_mbyllje": 120,
+    "hapur_me": "2026-06-14T01:12:24",
+    "mbyllur_me": "2026-06-14T20:27:04",
+    "shenime": null
+  },
+  {
+    "akt_id": 1008,
+    "perdorues_id": 15,
+    "kasa_hapese": 60,
+    "kasa_mbyllje": 123,
+    "hapur_me": "2026-06-14T20:29:06",
+    "mbyllur_me": "2026-06-15T23:11:51",
+    "shenime": null
+  },
+  {
+    "akt_id": 1009,
+    "perdorues_id": 13,
+    "kasa_hapese": 50,
+    "kasa_mbyllje": 150,
+    "hapur_me": "2026-06-15T23:27:48",
+    "mbyllur_me": "2026-06-21T19:44:29",
+    "shenime": null
+  },
+  {
+    "akt_id": 1010,
+    "perdorues_id": 13,
+    "kasa_hapese": 20,
+    "kasa_mbyllje": null,
+    "hapur_me": "2026-06-21T19:45:40",
+    "mbyllur_me": null,
+    "shenime": null
+  }
+]

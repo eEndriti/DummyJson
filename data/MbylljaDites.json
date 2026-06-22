@@ -1,0 +1,54 @@
+[
+  {
+    "mbyllje_id": 1,
+    "perdorues_id": 1,
+    "data_raport": "2026-06-11T02:00:00",
+    "total_shitje": 27.5,
+    "total_tvsh": 8.66,
+    "total_kesh": 50.5,
+    "total_karte": 1.5,
+    "total_zbritje": 0,
+    "total_kthime": 0,
+    "nr_porosive": 4,
+    "mbyllur_me": "2026-06-11T23:45:41"
+  },
+  {
+    "mbyllje_id": 2,
+    "perdorues_id": 1,
+    "data_raport": "2026-06-12T02:00:00",
+    "total_shitje": 104,
+    "total_tvsh": 44.68,
+    "total_kesh": 268,
+    "total_karte": 0,
+    "total_zbritje": 0,
+    "total_kthime": 0,
+    "nr_porosive": 3,
+    "mbyllur_me": "2026-06-13T00:38:14"
+  },
+  {
+    "mbyllje_id": 3,
+    "perdorues_id": 1,
+    "data_raport": "2026-06-15T02:00:00",
+    "total_shitje": 8.5,
+    "total_tvsh": 1.42,
+    "total_kesh": 8.5,
+    "total_karte": 0,
+    "total_zbritje": 0,
+    "total_kthime": 0,
+    "nr_porosive": 3,
+    "mbyllur_me": "2026-06-15T23:32:51"
+  },
+  {
+    "mbyllje_id": 4,
+    "perdorues_id": 1,
+    "data_raport": "2026-06-21T02:00:00",
+    "total_shitje": 8,
+    "total_tvsh": 2.44,
+    "total_kesh": 16,
+    "total_karte": 0,
+    "total_zbritje": 0,
+    "total_kthime": 0,
+    "nr_porosive": 1,
+    "mbyllur_me": "2026-06-21T19:55:36"
+  }
+]

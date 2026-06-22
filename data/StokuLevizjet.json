@@ -1,0 +1,352 @@
+[
+  {
+    "levizje_id": 1,
+    "produkt_id": 3,
+    "delta": 20,
+    "sasia_para": -9,
+    "sasia_pas": 11,
+    "arsyeja": "blerje",
+    "perdorues_id": 1,
+    "krijuar_me": "2026-06-14T01:15:23"
+  },
+  {
+    "levizje_id": 2,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 11,
+    "sasia_pas": 10,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:15:30"
+  },
+  {
+    "levizje_id": 3,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 10,
+    "sasia_pas": 9,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:15:30"
+  },
+  {
+    "levizje_id": 4,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 9,
+    "sasia_pas": 8,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:17:15"
+  },
+  {
+    "levizje_id": 5,
+    "produkt_id": 4,
+    "delta": 15,
+    "sasia_para": 0,
+    "sasia_pas": 15,
+    "arsyeja": "blerje",
+    "perdorues_id": 1,
+    "krijuar_me": "2026-06-14T01:18:55"
+  },
+  {
+    "levizje_id": 7,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 15,
+    "sasia_pas": 14,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:20:03"
+  },
+  {
+    "levizje_id": 8,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 14,
+    "sasia_pas": 13,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:20:03"
+  },
+  {
+    "levizje_id": 9,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 13,
+    "sasia_pas": 12,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:29:03"
+  },
+  {
+    "levizje_id": 10,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 8,
+    "sasia_pas": 7,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:29:03"
+  },
+  {
+    "levizje_id": 11,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 7,
+    "sasia_pas": 6,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:30:05"
+  },
+  {
+    "levizje_id": 12,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 6,
+    "sasia_pas": 5,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T01:30:17"
+  },
+  {
+    "levizje_id": 13,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 22,
+    "sasia_pas": 21,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:16:06"
+  },
+  {
+    "levizje_id": 14,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 21,
+    "sasia_pas": 20,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:16:21"
+  },
+  {
+    "levizje_id": 15,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 20,
+    "sasia_pas": 19,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:17:14"
+  },
+  {
+    "levizje_id": 16,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 12,
+    "sasia_pas": 11,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:19:47"
+  },
+  {
+    "levizje_id": 17,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 19,
+    "sasia_pas": 18,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:19:47"
+  },
+  {
+    "levizje_id": 20,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 18,
+    "sasia_pas": 17,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:26:05"
+  },
+  {
+    "levizje_id": 21,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 11,
+    "sasia_pas": 10,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:26:05"
+  },
+  {
+    "levizje_id": 22,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 10,
+    "sasia_pas": 9,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:26:16"
+  },
+  {
+    "levizje_id": 23,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 17,
+    "sasia_pas": 16,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-14T20:26:16"
+  },
+  {
+    "levizje_id": 24,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 9,
+    "sasia_pas": 8,
+    "arsyeja": "dergim",
+    "perdorues_id": 15,
+    "krijuar_me": "2026-06-14T20:34:12"
+  },
+  {
+    "levizje_id": 25,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 16,
+    "sasia_pas": 15,
+    "arsyeja": "dergim",
+    "perdorues_id": 15,
+    "krijuar_me": "2026-06-14T23:02:31"
+  },
+  {
+    "levizje_id": 26,
+    "produkt_id": 4,
+    "delta": -1,
+    "sasia_para": 8,
+    "sasia_pas": 7,
+    "arsyeja": "dergim",
+    "perdorues_id": 15,
+    "krijuar_me": "2026-06-14T23:02:31"
+  },
+  {
+    "levizje_id": 27,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 15,
+    "sasia_pas": 14,
+    "arsyeja": "dergim",
+    "perdorues_id": 15,
+    "krijuar_me": "2026-06-14T23:10:15"
+  },
+  {
+    "levizje_id": 28,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 5,
+    "sasia_pas": 4,
+    "arsyeja": "dergim",
+    "perdorues_id": 15,
+    "krijuar_me": "2026-06-14T23:12:27"
+  },
+  {
+    "levizje_id": 29,
+    "produkt_id": 11,
+    "delta": -1,
+    "sasia_para": 20,
+    "sasia_pas": 19,
+    "arsyeja": "dergim",
+    "perdorues_id": 1,
+    "krijuar_me": "2026-06-15T23:10:58"
+  },
+  {
+    "levizje_id": 30,
+    "produkt_id": 11,
+    "delta": -1,
+    "sasia_para": 19,
+    "sasia_pas": 18,
+    "arsyeja": "dergim",
+    "perdorues_id": 1,
+    "krijuar_me": "2026-06-15T23:30:27"
+  },
+  {
+    "levizje_id": 31,
+    "produkt_id": 26,
+    "delta": -1,
+    "sasia_para": 20,
+    "sasia_pas": 19,
+    "arsyeja": "dergim",
+    "perdorues_id": 1,
+    "krijuar_me": "2026-06-15T23:35:00"
+  },
+  {
+    "levizje_id": 32,
+    "produkt_id": 11,
+    "delta": -1,
+    "sasia_para": 18,
+    "sasia_pas": 17,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-15T23:49:46"
+  },
+  {
+    "levizje_id": 33,
+    "produkt_id": 3,
+    "delta": -1,
+    "sasia_para": 4,
+    "sasia_pas": 3,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-15T23:49:46"
+  },
+  {
+    "levizje_id": 34,
+    "produkt_id": 2,
+    "delta": -1,
+    "sasia_para": 14,
+    "sasia_pas": 13,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-16T23:40:27"
+  },
+  {
+    "levizje_id": 35,
+    "produkt_id": 11,
+    "delta": -1,
+    "sasia_para": 17,
+    "sasia_pas": 16,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-16T23:47:45"
+  },
+  {
+    "levizje_id": 36,
+    "produkt_id": 11,
+    "delta": -1,
+    "sasia_para": 16,
+    "sasia_pas": 15,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-18T13:21:31"
+  },
+  {
+    "levizje_id": 1036,
+    "produkt_id": 11,
+    "delta": -1,
+    "sasia_para": 15,
+    "sasia_pas": 14,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-23T00:45:39"
+  },
+  {
+    "levizje_id": 1037,
+    "produkt_id": 29,
+    "delta": -1,
+    "sasia_para": 40,
+    "sasia_pas": 39,
+    "arsyeja": "dergim",
+    "perdorues_id": 13,
+    "krijuar_me": "2026-06-23T01:04:34"
+  }
+]

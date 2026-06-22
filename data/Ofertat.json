@@ -1,0 +1,17 @@
+[
+  {
+    "oferta_id": 6,
+    "emri": "aaa",
+    "lloji": "porosi",
+    "lloji_zbritjes": "fikse",
+    "vlera": 1,
+    "eshte_aktive": true,
+    "pershkrimi": null,
+    "ora_fillimit": null,
+    "ora_mbarimit": null,
+    "ditet": null,
+    "data_fillimit": null,
+    "data_mbarimit": null,
+    "krijuar_me": "2026-06-17T01:02:53"
+  }
+]

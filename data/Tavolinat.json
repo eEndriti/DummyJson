@@ -1,0 +1,50 @@
+[
+  {
+    "tavolina_id": 1,
+    "numri": "T1",
+    "zona": "brendshme",
+    "kapaciteti": 4,
+    "statusi": "e_zene",
+    "krijuar_me": "2026-06-14T01:07:03"
+  },
+  {
+    "tavolina_id": 2,
+    "numri": "t2",
+    "zona": "brendshme",
+    "kapaciteti": 4,
+    "statusi": "e_lire",
+    "krijuar_me": "2026-06-14T01:07:03"
+  },
+  {
+    "tavolina_id": 3,
+    "numri": "T3",
+    "zona": "brendshme",
+    "kapaciteti": 4,
+    "statusi": "e_lire",
+    "krijuar_me": "2026-06-14T01:07:03"
+  },
+  {
+    "tavolina_id": 4,
+    "numri": "T4",
+    "zona": "brendshme",
+    "kapaciteti": 5,
+    "statusi": "e_lire",
+    "krijuar_me": "2026-06-14T01:07:03"
+  },
+  {
+    "tavolina_id": 13,
+    "numri": "t5",
+    "zona": "brendshme",
+    "kapaciteti": 4,
+    "statusi": "e_lire",
+    "krijuar_me": "2026-06-23T00:49:26"
+  },
+  {
+    "tavolina_id": 14,
+    "numri": "t6",
+    "zona": "brendshme",
+    "kapaciteti": 4,
+    "statusi": "e_lire",
+    "krijuar_me": "2026-06-23T00:49:31"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "blerje_det_id": 4,
+    "blerje_id": 3,
+    "produkt_id": null,
+    "pershkrimi": "domate",
+    "njesia": "kg",
+    "sasia": 1,
+    "cmimi_njesi": 1
+  },
+  {
+    "blerje_det_id": 5,
+    "blerje_id": 3,
+    "produkt_id": 2,
+    "pershkrimi": "tost",
+    "njesia": "cope",
+    "sasia": 50,
+    "cmimi_njesi": 0.7
+  },
+  {
+    "blerje_det_id": 6,
+    "blerje_id": 4,
+    "produkt_id": 3,
+    "pershkrimi": "test",
+    "njesia": "cope",
+    "sasia": 20,
+    "cmimi_njesi": 0
+  },
+  {
+    "blerje_det_id": 7,
+    "blerje_id": 5,
+    "produkt_id": 4,
+    "pershkrimi": "Red Bull",
+    "njesia": "cope",
+    "sasia": 15,
+    "cmimi_njesi": 5
+  }
+]

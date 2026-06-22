@@ -1,0 +1,92 @@
+[
+  {
+    "kategori_id": 1,
+    "emri": "Pije",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T01:07:03"
+  },
+  {
+    "kategori_id": 2,
+    "emri": "tost",
+    "printer_dest": "kuzhin",
+    "krijuar_me": "2026-06-14T01:07:03"
+  },
+  {
+    "kategori_id": 4,
+    "emri": "Pije Freskuese",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:19:45"
+  },
+  {
+    "kategori_id": 5,
+    "emri": "Pije Alkoolike",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:19:53"
+  },
+  {
+    "kategori_id": 6,
+    "emri": "Pije te Nxehta",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:20:03"
+  },
+  {
+    "kategori_id": 7,
+    "emri": "Mengjesi",
+    "printer_dest": "kuzhin",
+    "krijuar_me": "2026-06-14T23:20:09"
+  },
+  {
+    "kategori_id": 8,
+    "emri": "Sallata",
+    "printer_dest": "kuzhin",
+    "krijuar_me": "2026-06-14T23:20:18"
+  },
+  {
+    "kategori_id": 9,
+    "emri": "Pjata Kryesore",
+    "printer_dest": "kuzhin",
+    "krijuar_me": "2026-06-14T23:20:33"
+  },
+  {
+    "kategori_id": 10,
+    "emri": "Embelsira",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:20:38"
+  },
+  {
+    "kategori_id": 11,
+    "emri": "Pije të Ftohta",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:24:00"
+  },
+  {
+    "kategori_id": 12,
+    "emri": "Birra",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:24:00"
+  },
+  {
+    "kategori_id": 13,
+    "emri": "Kafe & Çaj",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:24:00"
+  },
+  {
+    "kategori_id": 14,
+    "emri": "Koktej & Verë",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:24:00"
+  },
+  {
+    "kategori_id": 15,
+    "emri": "Ushqime",
+    "printer_dest": "kuzhin",
+    "krijuar_me": "2026-06-14T23:24:00"
+  },
+  {
+    "kategori_id": 16,
+    "emri": "Snacks",
+    "printer_dest": "bar",
+    "krijuar_me": "2026-06-14T23:24:00"
+  }
+]

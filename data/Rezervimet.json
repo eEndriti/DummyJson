@@ -1,0 +1,38 @@
+[
+  {
+    "rezervim_id": 1,
+    "tavolina_id": 3,
+    "emri_klientit": "Arben Hoxha",
+    "telefoni": "044123456",
+    "data_ora": "2026-06-11T22:22:00",
+    "numri_personave": 4,
+    "shenime": "ditlindje",
+    "statusi": "e_kompletuar",
+    "krijuar_me": "2026-06-11T22:18:45",
+    "perdorues_id": null
+  },
+  {
+    "rezervim_id": 2,
+    "tavolina_id": 1,
+    "emri_klientit": "arben",
+    "telefoni": "2132131",
+    "data_ora": "2026-06-12T21:30:00",
+    "numri_personave": 3,
+    "shenime": null,
+    "statusi": "anulluar",
+    "krijuar_me": "2026-06-11T22:20:19",
+    "perdorues_id": null
+  },
+  {
+    "rezervim_id": 3,
+    "tavolina_id": 3,
+    "emri_klientit": "gh",
+    "telefoni": "54",
+    "data_ora": "2026-06-13T00:00:00",
+    "numri_personave": 2,
+    "shenime": null,
+    "statusi": "anulluar",
+    "krijuar_me": "2026-06-13T00:38:58",
+    "perdorues_id": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "stok_id": 1,
+    "produkt_id": 1,
+    "sasia_aktuale": 5,
+    "sasia_min": 4,
+    "updated_me": "2026-06-13T00:22:39"
+  },
+  {
+    "stok_id": 2,
+    "produkt_id": 2,
+    "sasia_aktuale": 13,
+    "sasia_min": 1,
+    "updated_me": "2026-06-16T23:40:27"
+  },
+  {
+    "stok_id": 3,
+    "produkt_id": 3,
+    "sasia_aktuale": 3,
+    "sasia_min": 0,
+    "updated_me": "2026-06-15T23:49:46"
+  },
+  {
+    "stok_id": 4,
+    "produkt_id": 4,
+    "sasia_aktuale": 7,
+    "sasia_min": 0,
+    "updated_me": "2026-06-14T23:02:31"
+  },
+  {
+    "stok_id": 5,
+    "produkt_id": 24,
+    "sasia_aktuale": 30,
+    "sasia_min": 5,
+    "updated_me": "2026-06-14T23:24:00"
+  },
+  {
+    "stok_id": 6,
+    "produkt_id": 25,
+    "sasia_aktuale": 25,
+    "sasia_min": 5,
+    "updated_me": "2026-06-14T23:24:00"
+  },
+  {
+    "stok_id": 7,
+    "produkt_id": 26,
+    "sasia_aktuale": 19,
+    "sasia_min": 5,
+    "updated_me": "2026-06-15T23:35:00"
+  },
+  {
+    "stok_id": 8,
+    "produkt_id": 27,
+    "sasia_aktuale": 20,
+    "sasia_min": 5,
+    "updated_me": "2026-06-14T23:24:00"
+  },
+  {
+    "stok_id": 9,
+    "produkt_id": 28,
+    "sasia_aktuale": 15,
+    "sasia_min": 3,
+    "updated_me": "2026-06-14T23:24:00"
+  },
+  {
+    "stok_id": 10,
+    "produkt_id": 29,
+    "sasia_aktuale": 39,
+    "sasia_min": 10,
+    "updated_me": "2026-06-23T01:04:34"
+  },
+  {
+    "stok_id": 11,
+    "produkt_id": 11,
+    "sasia_aktuale": 14,
+    "sasia_min": 0,
+    "updated_me": "2026-06-23T00:45:39"
+  }
+]
