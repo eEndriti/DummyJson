@@ -227,13 +227,12 @@
 
     <section>
       <h2>Usage Example</h2>
-      <pre><code>// Fetch all products
-const res = await fetch('<span id="base-url"></span>data/products.json');
-const products = await res.json();
+      <pre><code>// Fetch entire database (one file)
+const db = await fetch('<span id="base-url"></span>data/barpos.json').then(r => r.json());
 
-// Fetch categories
-const categories = await fetch('<span id="base-url-2"></span>data/categories.json')
-  .then(r => r.json());</code></pre>
+const kategorite = db.Kategorite.data;
+const produktet = db.Produktet.data;
+const tavolinat = db.Tavolinat.data;</code></pre>
     </section>
 
     <section>
@@ -256,17 +255,9 @@ const categories = await fetch('<span id="base-url-2"></span>data/categories.jso
     const BASE = new URL('./', window.location.href).href;
 
     document.getElementById('base-url').textContent = BASE;
-    document.getElementById('base-url-2').textContent = BASE;
 
     const files = [
-      { path: 'data/categories.json', title: 'Categories', desc: 'Menu categories (drinks, food, etc.)' },
-      { path: 'data/products.json', title: 'Products', desc: 'All menu items with prices and stock' },
-      { path: 'data/tables.json', title: 'Tables', desc: 'Bar/restaurant table layout and status' },
-      { path: 'data/staff.json', title: 'Staff', desc: 'Employees, roles, and PIN codes' },
-      { path: 'data/orders.json', title: 'Orders', desc: 'Open and recent orders' },
-      { path: 'data/inventory.json', title: 'Inventory', desc: 'Stock levels and suppliers' },
-      { path: 'data/settings.json', title: 'Settings', desc: 'Business info, tax, currency, hours' },
-      { path: 'data/manifest.json', title: 'Manifest', desc: 'Index of all data files and schemas' }
+      { path: 'data/barpos.json', title: 'BarPos (All Data)', desc: 'Full database — Kategorite, Produktet, Tavolinat, and 22 more tables' }
     ];
 
     const grid = document.getElementById('endpoints');
