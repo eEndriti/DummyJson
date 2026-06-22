@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BarPos System — Data API</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --border: #2d3a4f;
+      --text: #e8edf4;
+      --muted: #8b9cb3;
+      --accent: #f59e0b;
+      --accent-dim: #b45309;
+      --success: #34d399;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a2332 0%, #0f1419 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header h1 span { color: var(--accent); }
+
+    header p {
+      color: var(--muted);
+      margin-top: 0.5rem;
+      max-width: 540px;
+      margin-inline: auto;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.25rem 0.75rem;
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent);
+      border: 1px solid var(--accent-dim);
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .endpoint-grid {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .endpoint {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      transition: border-color 0.15s;
+    }
+
+    .endpoint:hover { border-color: var(--accent-dim); }
+
+    .endpoint-info h3 {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .endpoint-info p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    .endpoint-url {
+      font-family: "Cascadia Code", "Consolas", monospace;
+      font-size: 0.78rem;
+      color: var(--accent);
+      word-break: break-all;
+      text-align: right;
+      flex-shrink: 1;
+    }
+
+    .endpoint-actions {
+      display: flex;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    button, .btn {
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.45rem 0.85rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #111;
+    }
+
+    .btn-primary:hover { background: #fbbf24; }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--border);
+    }
+
+    .btn-ghost:hover { color: var(--text); border-color: var(--muted); }
+
+    pre {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      overflow-x: auto;
+      font-family: "Cascadia Code", "Consolas", monospace;
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+
+    code { color: var(--accent); }
+
+    .preview-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .preview-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .preview-body {
+      padding: 1.25rem;
+      max-height: 320px;
+      overflow: auto;
+    }
+
+    .preview-body pre {
+      border: none;
+      padding: 0;
+      background: transparent;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--success);
+      display: inline-block;
+      margin-right: 0.4rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 640px) {
+      .endpoint { flex-direction: column; align-items: flex-start; }
+      .endpoint-url { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>BarPos</span> System</h1>
+    <p>Static JSON data hosted on GitHub Pages. Fetch endpoints from your POS app, scripts, or any HTTP client.</p>
+    <span class="badge">GitHub Pages Ready</span>
+  </header>
+
+  <main>
+    <section>
+      <h2>Data Endpoints</h2>
+      <div class="endpoint-grid" id="endpoints"></div>
+    </section>
+
+    <section>
+      <h2>Usage Example</h2>
+      <pre><code>// Fetch all products
+const res = await fetch('<span id="base-url"></span>data/products.json');
+const products = await res.json();
+
+// Fetch categories
+const categories = await fetch('<span id="base-url-2"></span>data/categories.json')
+  .then(r => r.json());</code></pre>
+    </section>
+
+    <section>
+      <h2>Live Preview</h2>
+      <div class="preview-panel">
+        <div class="preview-header">
+          <span><span class="status-dot"></span><span id="preview-label">Select a file to preview</span></span>
+          <button class="btn-ghost" id="refresh-btn" hidden>Refresh</button>
+        </div>
+        <div class="preview-body">
+          <pre id="preview-content">Click "Preview" on any endpoint above.</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>BarPos System &mdash; JSON Data Repository</footer>
+
+  <script>
+    const BASE = new URL('./', window.location.href).href;
+
+    document.getElementById('base-url').textContent = BASE;
+    document.getElementById('base-url-2').textContent = BASE;
+
+    const files = [
+      { path: 'data/categories.json', title: 'Categories', desc: 'Menu categories (drinks, food, etc.)' },
+      { path: 'data/products.json', title: 'Products', desc: 'All menu items with prices and stock' },
+      { path: 'data/tables.json', title: 'Tables', desc: 'Bar/restaurant table layout and status' },
+      { path: 'data/staff.json', title: 'Staff', desc: 'Employees, roles, and PIN codes' },
+      { path: 'data/orders.json', title: 'Orders', desc: 'Open and recent orders' },
+      { path: 'data/inventory.json', title: 'Inventory', desc: 'Stock levels and suppliers' },
+      { path: 'data/settings.json', title: 'Settings', desc: 'Business info, tax, currency, hours' },
+      { path: 'data/manifest.json', title: 'Manifest', desc: 'Index of all data files and schemas' }
+    ];
+
+    const grid = document.getElementById('endpoints');
+    let currentPreview = null;
+
+    files.forEach(({ path, title, desc }) => {
+      const url = new URL(path, BASE).href;
+      const el = document.createElement('div');
+      el.className = 'endpoint';
+      el.innerHTML = `
+        <div class="endpoint-info">
+          <h3>${title}</h3>
+          <p>${desc}</p>
+        </div>
+        <div class="endpoint-url">${url.replace(/^https?:\/\//, '')}</div>
+        <div class="endpoint-actions">
+          <button class="btn-ghost preview-btn" data-path="${path}">Preview</button>
+          <a class="btn btn-primary" href="${path}" target="_blank" rel="noopener">Open</a>
+        </div>
+      `;
+      grid.appendChild(el);
+    });
+
+    async function loadPreview(path) {
+      const label = document.getElementById('preview-label');
+      const content = document.getElementById('preview-content');
+      const refreshBtn = document.getElementById('refresh-btn');
+      currentPreview = path;
+
+      label.textContent = path;
+      content.textContent = 'Loading…';
+      refreshBtn.hidden = false;
+
+      try {
+        const res = await fetch(new URL(path, BASE));
+        const data = await res.json();
+        content.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        content.textContent = 'Error: ' + err.message;
+      }
+    }
+
+    grid.addEventListener('click', (e) => {
+      const btn = e.target.closest('.preview-btn');
+      if (btn) loadPreview(btn.dataset.path);
+    });
+
+    document.getElementById('refresh-btn').addEventListener('click', () => {
+      if (currentPreview) loadPreview(currentPreview);
+    });
+  </script>
+</body>
+</html>

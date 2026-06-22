@@ -1,0 +1,55 @@
+{
+  "updatedAt": "2026-06-22T12:00:00.000Z",
+  "items": [
+    {
+      "id": "staff-001",
+      "name": "Admin",
+      "username": "admin",
+      "pin": "0000",
+      "role": "admin",
+      "active": true,
+      "phone": "+383 44 000 001",
+      "hiredAt": "2024-01-15"
+    },
+    {
+      "id": "staff-002",
+      "name": "Arben Krasniqi",
+      "username": "arben",
+      "pin": "1234",
+      "role": "manager",
+      "active": true,
+      "phone": "+383 44 111 222",
+      "hiredAt": "2024-03-01"
+    },
+    {
+      "id": "staff-003",
+      "name": "Elona Berisha",
+      "username": "elona",
+      "pin": "2345",
+      "role": "bartender",
+      "active": true,
+      "phone": "+383 44 333 444",
+      "hiredAt": "2024-06-10"
+    },
+    {
+      "id": "staff-004",
+      "name": "Driton Gashi",
+      "username": "driton",
+      "pin": "3456",
+      "role": "waiter",
+      "active": true,
+      "phone": "+383 44 555 666",
+      "hiredAt": "2025-01-20"
+    },
+    {
+      "id": "staff-005",
+      "name": "Liridona Hoxha",
+      "username": "liridona",
+      "pin": "4567",
+      "role": "waiter",
+      "active": true,
+      "phone": "+383 44 777 888",
+      "hiredAt": "2025-04-05"
+    }
+  ]
+}

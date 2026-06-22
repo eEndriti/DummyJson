@@ -1,0 +1,61 @@
+{
+  "updatedAt": "2026-06-22T12:00:00.000Z",
+  "items": [
+    {
+      "id": "cat-001",
+      "name": "Beer",
+      "sortOrder": 1,
+      "active": true,
+      "color": "#f59e0b"
+    },
+    {
+      "id": "cat-002",
+      "name": "Wine",
+      "sortOrder": 2,
+      "active": true,
+      "color": "#a855f7"
+    },
+    {
+      "id": "cat-003",
+      "name": "Spirits",
+      "sortOrder": 3,
+      "active": true,
+      "color": "#3b82f6"
+    },
+    {
+      "id": "cat-004",
+      "name": "Cocktails",
+      "sortOrder": 4,
+      "active": true,
+      "color": "#ec4899"
+    },
+    {
+      "id": "cat-005",
+      "name": "Soft Drinks",
+      "sortOrder": 5,
+      "active": true,
+      "color": "#22c55e"
+    },
+    {
+      "id": "cat-006",
+      "name": "Coffee & Tea",
+      "sortOrder": 6,
+      "active": true,
+      "color": "#78716c"
+    },
+    {
+      "id": "cat-007",
+      "name": "Snacks",
+      "sortOrder": 7,
+      "active": true,
+      "color": "#ef4444"
+    },
+    {
+      "id": "cat-008",
+      "name": "Food",
+      "sortOrder": 8,
+      "active": true,
+      "color": "#f97316"
+    }
+  ]
+}

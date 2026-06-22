@@ -1,0 +1,43 @@
+{
+  "name": "BarPos System",
+  "version": "1.0.0",
+  "updatedAt": "2026-06-22T12:00:00.000Z",
+  "baseUrl": "./",
+  "files": [
+    {
+      "id": "categories",
+      "path": "data/categories.json",
+      "description": "Menu categories"
+    },
+    {
+      "id": "products",
+      "path": "data/products.json",
+      "description": "Menu items and pricing"
+    },
+    {
+      "id": "tables",
+      "path": "data/tables.json",
+      "description": "Table layout and occupancy"
+    },
+    {
+      "id": "staff",
+      "path": "data/staff.json",
+      "description": "Staff accounts and roles"
+    },
+    {
+      "id": "orders",
+      "path": "data/orders.json",
+      "description": "Active and recent orders"
+    },
+    {
+      "id": "inventory",
+      "path": "data/inventory.json",
+      "description": "Stock and supplier records"
+    },
+    {
+      "id": "settings",
+      "path": "data/settings.json",
+      "description": "Business configuration"
+    }
+  ]
+}
